@@ -1,6 +1,0 @@
-require 'capistrano-payload/version'
-require 'capistrano-payload/errors'
-require 'capistrano-payload/request'
-require 'capistrano-payload/format'
-require 'capistrano-payload/payload'
-require 'capistrano-payload/capistrano_integration'
