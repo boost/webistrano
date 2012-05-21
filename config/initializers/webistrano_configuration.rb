@@ -12,3 +12,5 @@ Notification.webistrano_sender_address = WebistranoConfig[:webistrano_sender_add
 
 ExceptionNotification::Notifier.exception_recipients = WebistranoConfig[:exception_recipients]
 ExceptionNotification::Notifier.sender_address = WebistranoConfig[:exception_sender_address]
+
+require "#{Rails.root}/lib/webistrano/deploy/scm/archiva"
